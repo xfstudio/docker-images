@@ -29,8 +29,8 @@ jobs:
       run: |
         #  skopeo copy docker://docker.io/mysql:8.0.33 docker://registry.cn-hangzhou.aliyuncs.com/wepay/mysql:8.0.33
         #  skopeo copy docker://docker.io/redis:6.2.12 docker://registry.cn-hangzhou.aliyuncs.com/wepay/redis:6.2.12
-         skopeo copy docker://docker.io/minio/minio:RELEASE.2023-03-24T21-41-23Z docker://registry.cn-hangzhou.aliyuncs.com/wepay/minio:RELEASE.2023-03-24T21-41-23Z
-        #  skopeo copy docker://docker.io/elasticsearch:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/elasticsearch:7.17.6
+        #  skopeo copy docker://docker.io/minio/minio:RELEASE.2023-03-24T21-41-23Z docker://registry.cn-hangzhou.aliyuncs.com/wepay/minio:RELEASE.2023-03-24T21-41-23Z
+         skopeo copy docker://docker.io/elasticsearch:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/elasticsearch:7.17.6
         #  skopeo copy docker://docker.io/logstash:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/logstash:7.17.6
         #  skopeo copy docker://docker.io/kibana:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/kibana:7.17.6
         #  skopeo copy docker://docker.io/apache/rocketmq:4.9.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq:4.9.4
