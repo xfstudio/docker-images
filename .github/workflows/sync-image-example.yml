@@ -32,9 +32,9 @@ jobs:
         #  skopeo copy docker://docker.io/minio/minio:RELEASE.2023-03-24T21-41-23Z docker://registry.cn-hangzhou.aliyuncs.com/wepay/minio:RELEASE.2023-03-24T21-41-23Z
         #  skopeo copy docker://docker.io/elasticsearch:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/elasticsearch:7.17.6
         #  skopeo copy docker://docker.io/logstash:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/logstash:7.17.6
-         skopeo copy docker://docker.io/kibana:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/kibana:7.17.6
-        #  skopeo copy docker://docker.io/apache/rocketmq:4.9.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq:4.9.4
-        #  skopeo copy docker://docker.io/styletang/rocketmq-console-ng docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq-console-ng
+        #  skopeo copy docker://docker.io/kibana:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/kibana:7.17.6
+         skopeo copy docker://docker.io/apache/rocketmq:4.9.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq:4.9.4
+         skopeo copy docker://docker.io/styletang/rocketmq-console-ng docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq-console-ng
         #  skopeo copy docker://docker.io/rabbitmq:3.10.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/rabbitmq:3.10.6
         #  skopeo copy docker://docker.io/bitnami/zookeeper:3.8.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/zookeeper:3.8.0
         #  skopeo copy docker://docker.io/bitnami/kafka:3.2.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/kafka:3.2.0
