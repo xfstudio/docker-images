@@ -33,16 +33,16 @@ jobs:
         #  skopeo copy docker://docker.io/elasticsearch:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/elasticsearch:7.17.6
         #  skopeo copy docker://docker.io/logstash:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/logstash:7.17.6
         #  skopeo copy docker://docker.io/kibana:7.17.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/kibana:7.17.6
-         skopeo copy docker://docker.io/apache/rocketmq:4.9.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq:4.9.4
-         skopeo copy docker://docker.io/styletang/rocketmq-console-ng docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq-console-ng
-        #  skopeo copy docker://docker.io/rabbitmq:3.10.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/rabbitmq:3.10.6
-        #  skopeo copy docker://docker.io/bitnami/zookeeper:3.8.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/zookeeper:3.8.0
-        #  skopeo copy docker://docker.io/bitnami/kafka:3.2.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/kafka:3.2.0
-        #  skopeo copy docker://docker.io/sheepkiller/kafka-manager:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/kafka-manager:latest
-        #  skopeo copy docker://docker.io/bitnami/apache/skywalking-oap-server:9.3.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/skywalking-oap-server:9.3.0
-        #  skopeo copy docker://docker.io/bitnami/apache/skywalking-ui:9.3.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/apache/skywalking-ui:9.3.0
-        #  skopeo copy docker://docker.io/bitnami/prom/prometheus:v2.40.1 docker://registry.cn-hangzhou.aliyuncs.com/wepay/prometheus:v2.40.1
-        #  skopeo copy docker://docker.io/bitnami/grafana/grafana:9.2.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/grafana:9.2.4
-        #  skopeo copy docker://docker.io/bitnami/apache/shardingsphere-proxy:5.4.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/shardingsphere-proxy:5.4.0
+        #  skopeo copy docker://docker.io/apache/rocketmq:4.9.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq:4.9.4
+        #  skopeo copy docker://docker.io/styletang/rocketmq-console-ng docker://registry.cn-hangzhou.aliyuncs.com/wepay/rocketmq-console-ng
+         skopeo copy docker://docker.io/rabbitmq:3.10.6 docker://registry.cn-hangzhou.aliyuncs.com/wepay/rabbitmq:3.10.6
+         skopeo copy docker://docker.io/bitnami/zookeeper:3.8.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/zookeeper:3.8.0
+         skopeo copy docker://docker.io/bitnami/kafka:3.2.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/kafka:3.2.0
+         skopeo copy docker://docker.io/sheepkiller/kafka-manager:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/kafka-manager:latest
+         skopeo copy docker://docker.io/bitnami/apache/skywalking-oap-server:9.3.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/skywalking-oap-server:9.3.0
+         skopeo copy docker://docker.io/bitnami/apache/skywalking-ui:9.3.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/apache/skywalking-ui:9.3.0
+         skopeo copy docker://docker.io/bitnami/prom/prometheus:v2.40.1 docker://registry.cn-hangzhou.aliyuncs.com/wepay/prometheus:v2.40.1
+         skopeo copy docker://docker.io/bitnami/grafana/grafana:9.2.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/grafana:9.2.4
+         skopeo copy docker://docker.io/bitnami/apache/shardingsphere-proxy:5.4.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/shardingsphere-proxy:5.4.0
          
          
