@@ -39,10 +39,12 @@ jobs:
          skopeo copy docker://docker.io/bitnami/zookeeper:3.8.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/zookeeper:3.8.0
          skopeo copy docker://docker.io/bitnami/kafka:3.2.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/kafka:3.2.0
          skopeo copy docker://docker.io/sheepkiller/kafka-manager:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/kafka-manager:latest
-         skopeo copy docker://docker.io/bitnami/apache/skywalking-oap-server:9.3.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/skywalking-oap-server:9.3.0
-         skopeo copy docker://docker.io/bitnami/apache/skywalking-ui:9.3.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/apache/skywalking-ui:9.3.0
-         skopeo copy docker://docker.io/bitnami/prom/prometheus:v2.40.1 docker://registry.cn-hangzhou.aliyuncs.com/wepay/prometheus:v2.40.1
-         skopeo copy docker://docker.io/bitnami/grafana/grafana:9.2.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/grafana:9.2.4
-         skopeo copy docker://docker.io/bitnami/apache/shardingsphere-proxy:5.4.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/shardingsphere-proxy:5.4.0
-         
-         
+         skopeo copy docker://docker.io/apache/skywalking-oap-server:9.3.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/skywalking-oap-server:9.3.0
+         skopeo copy docker://docker.io/apache/skywalking-ui:9.3.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/apache/skywalking-ui:9.3.0
+         skopeo copy docker://docker.io/prom/prometheus:v2.40.1 docker://registry.cn-hangzhou.aliyuncs.com/wepay/prometheus:v2.40.1
+         skopeo copy docker://docker.io/grafana/grafana:9.2.4 docker://registry.cn-hangzhou.aliyuncs.com/wepay/grafana:9.2.4
+         skopeo copy docker://docker.io/apache/shardingsphere-proxy:5.4.0 docker://registry.cn-hangzhou.aliyuncs.com/wepay/shardingsphere-proxy:5.4.0
+         skopeo copy docker://docker.io/bellsoft/liberica-openjdk-debian:21.0.3-cds docker://registry.cn-hangzhou.aliyuncs.com/wepay/liberica-openjdk-debian:21.0.3-cds
+         skopeo copy docker://docker.io/bellsoft/liberica-openjdk-debian:17.0.11-cds docker://registry.cn-hangzhou.aliyuncs.com/wepay/liberica-openjdk-debian:17.0.11-cds
+         skopeo copy docker://docker.io/bitnami/findepi/graalvm:java17-native docker://registry.cn-hangzhou.aliyuncs.com/wepay/graalvm:java17-native
+         skopeo copy docker://docker.io/openjdk:21 docker://registry.cn-hangzhou.aliyuncs.com/wepay/openjdk:21
