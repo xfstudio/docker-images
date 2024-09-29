@@ -28,7 +28,7 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #  skopeo copy docker://docker.io/docker/dockerfile:1 docker://registry.cn-hangzhou.aliyuncs.com/wepay/docker/dockerfile:1
-         skopeo copy docker://docker.io/automatischio/automatisch:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/automatischio/automatisch:latest
+        skopeo copy docker://docker.io/automatischio/automatisch:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/automatischio/automatisch:latest
         #  skopeo copy docker://docker.io/node:18-alpine docker://registry.cn-hangzhou.aliyuncs.com/wepay/node:18-alpine
         #  skopeo copy docker://docker.io/postgres:14-alpine docker://registry.cn-hangzhou.aliyuncs.com/wepay/postgres:14-alpine
         #  skopeo copy docker://docker.io/redis:7-alpine docker://registry.cn-hangzhou.aliyuncs.com/wepay/redis:7-alpine
