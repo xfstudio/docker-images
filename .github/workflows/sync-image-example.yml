@@ -27,7 +27,9 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run:
-        skopeo copy docker://docker.io/python:3.9-slim docker://registry.cn-hangzhou.aliyuncs.com/wepay/python:3.9-slim
+        skopeo copy docker://docker.io/linshen/prompt-optimizer docker://registry.cn-hangzhou.aliyuncs.com/wepay/prompt-optimizer
+
+        # skopeo copy docker://docker.io/python:3.9-slim docker://registry.cn-hangzhou.aliyuncs.com/wepay/python:3.9-slim
 
         # skopeo copy docker://docker.io/rockchin/langbot:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/langbot:latest
 
