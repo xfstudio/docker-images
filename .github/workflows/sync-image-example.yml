@@ -29,6 +29,10 @@ jobs:
       run:
         skopeo copy docker://docker.io/linshen/prompt-optimizer docker://registry.cn-hangzhou.aliyuncs.com/wepay/prompt-optimizer
 
+        # skopeo copy docker://docker.io/rustdesk/rustdesk-server-pro:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/rustdesk-server-pro:latest
+        
+        # skopeo copy docker://docker.io/openjdk:8-jdk-alpine docker://registry.cn-hangzhou.aliyuncs.com/wepay/openjdk:8-jdk-alpine
+        
         # skopeo copy docker://docker.io/python:3.9-slim docker://registry.cn-hangzhou.aliyuncs.com/wepay/python:3.9-slim
 
         # skopeo copy docker://docker.io/rockchin/langbot:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/langbot:latest
