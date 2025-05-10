@@ -27,7 +27,9 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run:
-        skopeo copy docker://docker.io/linshen/prompt-optimizer docker://registry.cn-hangzhou.aliyuncs.com/wepay/prompt-optimizer
+        skopeo copy docker://docker.n8n.io/n8nio/n8n docker://registry.cn-hangzhou.aliyuncs.com/wepay/n8n
+        
+        # skopeo copy docker://docker.io/linshen/prompt-optimizer docker://registry.cn-hangzhou.aliyuncs.com/wepay/prompt-optimizer
 
         # skopeo copy docker://docker.io/rustdesk/rustdesk-server-pro:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/rustdesk-server-pro:latest
         
