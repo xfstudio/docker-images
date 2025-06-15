@@ -27,7 +27,9 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run:
-        skopeo copy docker://docker.n8n.io/n8nio/n8n docker://registry.cn-hangzhou.aliyuncs.com/wepay/n8n
+        skopeo copy docker://docker.juspay.io/juspaydotin/hyperswitch-control-center:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/hyperswitch-control-center:latest
+        
+        # skopeo copy docker://docker.n8n.io/n8nio/n8n-server docker://registry.cn-hangzhou.aliyuncs.com/wepay/n8n-server
         
         # skopeo copy docker://docker.io/linshen/prompt-optimizer docker://registry.cn-hangzhou.aliyuncs.com/wepay/prompt-optimizer
 
