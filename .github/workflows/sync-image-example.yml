@@ -27,9 +27,13 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run:
-        skopeo copy docker://docker.juspay.io/juspaydotin/hyperswitch-router:standalone docker://registry.cn-hangzhou.aliyuncs.com/wepay/hyperswitch-router:standalone
+        skopeo copy docker://docker.m.daocloud.io/library/node:20-alpine docker://registry.cn-hangzhou.aliyuncs.com/wepay/node:20-alpine
         
-        skopeo copy docker://docker.juspay.io/juspaydotin/hyperswitch-web:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/hyperswitch-web:latest
+        skopeo copy docker://docker.m.daocloud.io/library/maven:3.8-openjdk-17 docker://registry.cn-hangzhou.aliyuncs.com/wepay/maven:3.8-openjdk-17
+        
+        # skopeo copy docker://docker.juspay.io/juspaydotin/hyperswitch-router:standalone docker://registry.cn-hangzhou.aliyuncs.com/wepay/hyperswitch-router:standalone
+        
+        # skopeo copy docker://docker.juspay.io/juspaydotin/hyperswitch-web:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/hyperswitch-web:latest
         
         # skopeo copy docker://docker.juspay.io/juspaydotin/hyperswitch-control-center:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/hyperswitch-control-center:latest
         
