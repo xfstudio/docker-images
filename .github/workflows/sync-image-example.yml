@@ -27,8 +27,10 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run:
-      
-        skopeo copy docker://ghcr.io/senshinya/moontv:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/moontv:latest
+
+        skopeo copy docker://docker.io/xxxxrt666/gpt-sovits:latest-cu128-lite docker://registry.cn-hangzhou.aliyuncs.com/wepay/gpt-sovits:latest-cu128-lite
+        
+        # skopeo copy docker://ghcr.io/senshinya/moontv:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/moontv:latest
         
         # skopeo copy docker://docker.m.daocloud.io/library/node:20-alpine docker://registry.cn-hangzhou.aliyuncs.com/wepay/node:20-alpine
         
