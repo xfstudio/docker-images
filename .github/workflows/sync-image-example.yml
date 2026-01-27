@@ -28,7 +28,9 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run:
 
-        skopeo copy docker://ghcr.io/xjq7/runcode:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/runcode:latest
+        skopeo copy docker://docker.io/library/remnux/ciphey:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/ciphey:latest
+
+        # skopeo copy docker://ghcr.io/xjq7/runcode:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/runcode:latest
         
         # skopeo copy docker://docker.io/library/rust:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/rust:latest
         
