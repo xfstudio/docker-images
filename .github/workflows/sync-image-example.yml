@@ -31,6 +31,8 @@ jobs:
         skopeo copy docker://docker.io/rustdesk/rustdesk-server:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/rustdesk-server:latest
         
         skopeo copy docker://docker.io/remnux/ciphey:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/ciphey:latest
+        
+        skopeo copy docker://docker.io/1panel/openclaw:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/openclaw:latest
 
         # skopeo copy docker://ghcr.io/xjq7/runcode:latest docker://registry.cn-hangzhou.aliyuncs.com/wepay/runcode:latest
         
